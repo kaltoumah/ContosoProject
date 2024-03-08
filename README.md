@@ -14,10 +14,10 @@ Ceci est un projet d'analyse de donné sur la base de donnée Contoso
 ### Modèle Tabulaire
 ![MOdele](img/MCD.png)
 
-### Histogramme Groupés EXCEL :bar_chart:
+### EXCEL :bar_chart:
 ![MOdele](img/Histogramme.png)
 
-### modèle 3D EXCEL
+### EXCEL
 ![MOdele](img/3D.png)
 
 ### PBI
