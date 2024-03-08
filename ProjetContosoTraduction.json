@@ -1,0 +1,711 @@
+{
+  "referenceCulture": {
+  "name": "db",
+  "model": {
+    "tables": [
+      {
+        "name": "DimProduct",
+        "columns": [
+          {
+            "name": "ProductKey"
+          },
+          {
+            "name": "ProductLabel"
+          },
+          {
+            "name": "ProductName"
+          },
+          {
+            "name": "ProductDescription"
+          },
+          {
+            "name": "ProductSubcategoryKey"
+          },
+          {
+            "name": "Manufacturer"
+          },
+          {
+            "name": "BrandName"
+          },
+          {
+            "name": "ClassID"
+          },
+          {
+            "name": "ClassName"
+          },
+          {
+            "name": "StyleID"
+          },
+          {
+            "name": "StyleName"
+          },
+          {
+            "name": "ColorID"
+          },
+          {
+            "name": "ColorName"
+          },
+          {
+            "name": "Size"
+          },
+          {
+            "name": "SizeRange"
+          },
+          {
+            "name": "SizeUnitMeasureID"
+          },
+          {
+            "name": "Weight"
+          },
+          {
+            "name": "WeightUnitMeasureID"
+          },
+          {
+            "name": "UnitOfMeasureID"
+          },
+          {
+            "name": "UnitOfMeasureName"
+          },
+          {
+            "name": "StockTypeID"
+          },
+          {
+            "name": "StockTypeName"
+          },
+          {
+            "name": "UnitCost"
+          },
+          {
+            "name": "UnitPrice"
+          },
+          {
+            "name": "AvailableForSaleDate"
+          },
+          {
+            "name": "StopSaleDate"
+          },
+          {
+            "name": "Status"
+          },
+          {
+            "name": "ImageURL"
+          },
+          {
+            "name": "ProductURL"
+          },
+          {
+            "name": "ETLLoadID"
+          },
+          {
+            "name": "LoadDate"
+          },
+          {
+            "name": "UpdateDate"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hr BrandName ColourName",
+            "levels": [
+              {
+                "name": "ColorName"
+              },
+              {
+                "name": "Manufacturer"
+              },
+              {
+                "name": "ProductName"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "DimProductCategory",
+        "columns": [
+          {
+            "name": "ProductCategoryKey"
+          },
+          {
+            "name": "ProductCategoryLabel"
+          },
+          {
+            "name": "ProductCategoryName"
+          },
+          {
+            "name": "ProductCategoryDescription"
+          },
+          {
+            "name": "ETLLoadID"
+          },
+          {
+            "name": "LoadDate"
+          },
+          {
+            "name": "UpdateDate"
+          }
+        ]
+      },
+      {
+        "name": "DimProductSubcategory",
+        "columns": [
+          {
+            "name": "ProductSubcategoryKey"
+          },
+          {
+            "name": "ProductSubcategoryLabel"
+          },
+          {
+            "name": "ProductSubcategoryName"
+          },
+          {
+            "name": "ProductSubcategoryDescription"
+          },
+          {
+            "name": "ProductCategoryKey"
+          },
+          {
+            "name": "ETLLoadID"
+          },
+          {
+            "name": "LoadDate"
+          },
+          {
+            "name": "UpdateDate"
+          }
+        ]
+      },
+      {
+        "name": "FactSales",
+        "columns": [
+          {
+            "name": "SalesKey"
+          },
+          {
+            "name": "DateKey"
+          },
+          {
+            "name": "channelKey"
+          },
+          {
+            "name": "StoreKey"
+          },
+          {
+            "name": "ProductKey"
+          },
+          {
+            "name": "PromotionKey"
+          },
+          {
+            "name": "CurrencyKey"
+          },
+          {
+            "name": "UnitCost"
+          },
+          {
+            "name": "UnitPrice"
+          },
+          {
+            "name": "SalesQuantity"
+          },
+          {
+            "name": "ReturnQuantity"
+          },
+          {
+            "name": "ReturnAmount"
+          },
+          {
+            "name": "DiscountQuantity"
+          },
+          {
+            "name": "DiscountAmount"
+          },
+          {
+            "name": "TotalCost"
+          },
+          {
+            "name": "SalesAmount"
+          },
+          {
+            "name": "ETLLoadID"
+          },
+          {
+            "name": "LoadDate"
+          },
+          {
+            "name": "UpdateDate"
+          },
+          {
+            "name": "Sales Amount"
+          }
+        ],
+        "measures": [
+          {
+            "name": "Sum of Sales Amount"
+          },
+          {
+            "name": "SumDiscountAmount"
+          },
+          {
+            "name": "Total Cost"
+          },
+          {
+            "name": "Margin"
+          }
+        ]
+      },
+      {
+        "name": "CalculatedTable 1",
+        "columns": [
+          {
+            "name": "ColorName"
+          },
+          {
+            "name": "Total Sales"
+          }
+        ]
+      }
+    ]
+  }
+},
+  "cultures": [
+    {
+  "name": "es-419",
+  "translations": {
+    "model": {
+      "name": "Model",
+      "translatedCaption": "",
+      "translatedDescription": "",
+      "tables": [
+        {
+          "name": "DimProduct",
+          "translatedCaption": "",
+          "translatedDescription": "",
+          "columns": [
+            {
+              "name": "ProductKey",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ProductLabel",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ProductName",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ProductDescription",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ProductSubcategoryKey",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "Manufacturer",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "BrandName",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ClassID",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ClassName",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "StyleID",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "StyleName",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ColorID",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ColorName",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "Size",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "SizeRange",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "SizeUnitMeasureID",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "Weight",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "WeightUnitMeasureID",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "UnitOfMeasureID",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "UnitOfMeasureName",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "StockTypeID",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "StockTypeName",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "UnitCost",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "UnitPrice",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "AvailableForSaleDate",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "StopSaleDate",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "Status",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ImageURL",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ProductURL",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ETLLoadID",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "LoadDate",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "UpdateDate",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            }
+          ],
+          "hierarchies": [
+            {
+              "name": "Hr BrandName ColourName",
+              "translatedCaption": "",
+              "translatedDescription": "",
+              "levels": [
+                {
+                  "name": "ColorName",
+                  "translatedCaption": "",
+                  "translatedDescription": ""
+                },
+                {
+                  "name": "Manufacturer",
+                  "translatedCaption": "",
+                  "translatedDescription": ""
+                },
+                {
+                  "name": "ProductName",
+                  "translatedCaption": "",
+                  "translatedDescription": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DimProductCategory",
+          "translatedCaption": "",
+          "translatedDescription": "",
+          "columns": [
+            {
+              "name": "ProductCategoryKey",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ProductCategoryLabel",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ProductCategoryName",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ProductCategoryDescription",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ETLLoadID",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "LoadDate",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "UpdateDate",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            }
+          ]
+        },
+        {
+          "name": "DimProductSubcategory",
+          "translatedCaption": "",
+          "translatedDescription": "",
+          "columns": [
+            {
+              "name": "ProductSubcategoryKey",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ProductSubcategoryLabel",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ProductSubcategoryName",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ProductSubcategoryDescription",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ProductCategoryKey",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ETLLoadID",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "LoadDate",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "UpdateDate",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            }
+          ]
+        },
+        {
+          "name": "FactSales",
+          "translatedCaption": "",
+          "translatedDescription": "",
+          "columns": [
+            {
+              "name": "SalesKey",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "DateKey",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "channelKey",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "StoreKey",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ProductKey",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "PromotionKey",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "CurrencyKey",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "UnitCost",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "UnitPrice",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "SalesQuantity",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ReturnQuantity",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ReturnAmount",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "DiscountQuantity",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "DiscountAmount",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "TotalCost",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "SalesAmount",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "ETLLoadID",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "LoadDate",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "UpdateDate",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "Sales Amount",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            }
+          ],
+          "measures": [
+            {
+              "name": "Sum of Sales Amount",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "SumDiscountAmount",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "Total Cost",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "Margin",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            }
+          ]
+        },
+        {
+          "name": "CalculatedTable 1",
+          "translatedCaption": "",
+          "translatedDescription": "",
+          "columns": [
+            {
+              "name": "ColorName",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            },
+            {
+              "name": "Total Sales",
+              "translatedCaption": "",
+              "translatedDescription": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+  ]
+}
