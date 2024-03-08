@@ -20,5 +20,5 @@ Ceci est un projet d'analyse de donné sur la base de donnée Contoso
 ### 3D
 ![MOdele](img/3D.png)
 
-### Power BI
+### PBI
 ![MOdele](img/ipb1.png)
