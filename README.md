@@ -3,4 +3,7 @@
 ## Description
 
 ### Modèle Tabulaire
-![MOdele]
+![MOdele](img/MCD.png)
+
+### Histogramme
+![MOdele](img/Histogramme.png)
