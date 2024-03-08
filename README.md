@@ -1,5 +1,8 @@
 # ContosoProject
 
+## Introduction 
+Ceci est un projet d'analyse de donné sur la base de donnée Contoso
+
 ## Description
 
 ### Modèle Tabulaire
