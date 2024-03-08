@@ -10,3 +10,6 @@
 
 ### 3D
 ![MOdele](img/3D.png)
+
+### Power BI
+![MOdele](img/ipb1.png)
